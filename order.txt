@@ -1,1 +1,3 @@
-python track.py  --strong-sort-weights osnet_x0_25_msmt17.pt --source MOT16-08-raw.mp4 --show-vid --save-vid         
+python track.py  --strong-sort-weights osnet_x0_25_msmt17.pt --source MOT16-08-raw.mp4 --show-vid --save-vid      
+
+python track.py  --strong-sort-weights osnet_x0_25_msmt17.pt --source test02.mp4 --show-vid --save-vid      

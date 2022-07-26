@@ -1,8 +1,8 @@
-# README
+# README FIRST 
 
-仓库地址：[GitHub - mikel-brostrom/Yolov5_StrongSORT_OSNet: Real-time multi-camera multi-object tracker using YOLOv5 and StrongSORT with OSNet](https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet)
+原仓库地址：[GitHub - mikel-brostrom/Yolov5_StrongSORT_OSNet: Real-time multi-camera multi-object tracker using YOLOv5 and StrongSORT with OSNet](https://github.com/mikel-brostrom/Yolov5_StrongSORT_OSNet)
 
-
+请克隆本仓库（包含了一些必需的模型）因为这些模型可能无法正常下载。
 
 操作指南：
 
@@ -19,8 +19,6 @@ C:\Users\xx>conda -V
 conda 4.13.0
 ```
 
-
-
 2. 创建虚拟环境，并按照提示激活
 
 ```powershell
@@ -31,7 +29,6 @@ conda create -n your-env-name python=3.7
 
 ```powershell
 activate your-env-name
-
 ```
 
 前面括号里的名字由 `base`变成`your-env-name`就说明激活成功了，同时也进入了这个虚拟环境。
@@ -100,13 +97,20 @@ python track.py  --strong-sort-weights osnet_x0_25_msmt17.pt --source test02.mp4
 
 执行结果如下
 
+![image-20220725224354300](assets/image-20220725224354300.png)
 
+![image-20220725224509824](assets/image-20220725224509824.png)
 
-参考资料：
+![image-20220725224622041](assets/image-20220725224622041.png)
 
-1. [(96条消息) yolov5+Deepsort实现目标跟踪_花花少年的博客-CSDN博客_yolov5deepsort跟踪效果](https://blog.csdn.net/m0_37605642/article/details/122590352)
+参考资料按重要性排序如下：
 
+1. [多目标跟踪（MOT）入门 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/97449724)
 
+2. [ yolov5+Deepsort实现目标跟踪_花花少年的博客-CSDN博客_yolov5deepsort跟踪效果](https://blog.csdn.net/m0_37605642/article/details/122590352)
+
+3. [AI人流量计数+足迹追踪_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1J3411M7KQ?spm_id_from=333.337.search-card.all.click&vd_source=f1e4d9d3a61cf39041b8e4534c19b1f1)
+4. [ Yolov5_DeepSort_Pytorch代码学习与修改记录__helen_520的博客-CSDN博客_yolov5_deepsort_pytorch](https://blog.csdn.net/haronchou/article/details/124453178)
 
 
 
